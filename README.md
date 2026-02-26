@@ -8,3 +8,19 @@
 >githubよりクローンするかダウンロードするかでご使用下さい.
 >ご自由に使用頂いて構いませんがQiitaかgithubにリンクして頂けたら有り難いです.
 >また、いいね👍️、スター★を押していただく励みになります🙇.
+
+```php
+//使用例
+$response = (new Bluesky(USER_NAME, APP_PASSWORD))->webPost(
+                $title,
+                $imagePath,
+                $link,
+                $tags,
+            );
+$response = (new Bluesky(USER_NAME, APP_PASSWORD))->post(
+                $text,
+                $imagePath,
+                $link,
+                $tags,
+            );
+```
