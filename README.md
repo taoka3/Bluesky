@@ -11,13 +11,13 @@
 
 ```php
 //使用例
-$response = (new Bluesky(USER_NAME, APP_PASSWORD))->webPost(
+$response = (new Bluesky(HANDLE, APP_PASSWORD))->webPost(
                 $title,
                 $imagePath,
                 $link,
                 $tags,
             );
-$response = (new Bluesky(USER_NAME, APP_PASSWORD))->post(
+$response = (new Bluesky(HANDLE, APP_PASSWORD))->post(
                 $text,
                 $imagePath,
                 $link,
